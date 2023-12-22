@@ -9,7 +9,7 @@ import joblib
 
 
 # ----------Import Data--------------
-with open('./savedata/CVec.pkl', 'rb') as f:
+with open('./savedata/CVec_new.pkl', 'rb') as f:
     CVec = pickle.load(f)
     
 # Import data hasil counvec 
